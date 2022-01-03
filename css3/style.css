@@ -1,0 +1,92 @@
+.welcome{
+    display: inline-flex;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 80px;
+    border-radius: 20px;
+    border: 5px solid #112D31;
+    background-color: #89BDBB ;
+    color: #112D31;
+    font-family: 'Sanchez', serif;
+    box-shadow: 7px 7px 7px 7px  grey;
+}
+
+.container1{
+    display: flex;
+    border: blueviolet 5px solid;
+    flex-wrap: wrap;
+}
+.tl,.bl,.tr,.br {
+    font-weight: bold;
+    border-radius: 20px;
+    border: 5px solid #112D31;
+    background-color: #89BDBB ;
+    color: #112D31;
+    font-family: 'Sanchez', serif;
+    box-shadow: 7px 7px 7px 7px  grey;
+    width: 10%;
+    text-align: center;
+}
+
+.tl,.bl{
+    margin-top: 1%;
+    margin-left: 15px;
+}
+.tr,.br{
+    margin-left: 77%;
+}
+.bl,.br{
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.tr{
+    margin-top: 1%;
+}
+.box{
+    border: brown 5px solid;
+    border-radius: 30px;
+    margin-top: 2%;
+    background-color: peachpuff;
+    width: 70%;
+    margin-bottom: 10%;  
+}
+h1{
+    text-align: center;
+    font-family: 'Pushster', cursive;
+}
+.item{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:0px 2% 2% 2% ; 
+    font-family: 'Yellowtail', cursive;
+}
+.fruits,.veg,.other{
+    border: rebeccapurple solid 2px;
+    text-align: center;
+    margin-bottom:1% ;
+    padding: 0.5%;
+    background-color: royalblue;
+}
+.fruits,.veg{
+    width: 48%;
+    margin-left: 0.6%;
+}
+.fixed{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    border: goldenrod 5px solid;
+    border-radius: 30px;
+    font-size: large;
+    background-color: rgb(212, 22, 22);
+    color: whitesmoke;
+    position: fixed;
+    bottom: 2%;
+    margin-left: 35%;
+    padding: 1%;
+    text-align: center;
+    border-style:double;
+}
