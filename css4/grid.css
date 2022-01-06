@@ -1,0 +1,116 @@
+h1{
+    background-image: linear-gradient(
+        to right,
+        #8A2387,#E94057,#F27121,#FFF200);
+        text-align: center;
+        text-decoration: underline;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    border: #59C173 solid 5px;
+    width: 70%;
+    background-color: #a17fe0;
+    color: #5D26C1;
+    border-radius:15px;
+}
+.box{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: #89216B 5px solid;
+    border-radius: 10px;
+    background-color: #DA4453;
+    justify-content: center;
+    
+}
+.box1,.box2,.box3,.box4{
+    border: #FFF200 5px solid;
+    background-color: bisque;
+    margin: 1%;  
+    width: 30%;
+    border-radius: 10px;
+}
+h3{
+    background-image: linear-gradient(
+        to right,
+        #40E0D0,#FF8C00,#FF0080);
+        padding-bottom: 0.5%;
+        text-decoration: underline;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+}
+.mid{
+    border:#fc4a1a 5px solid;
+    border-radius: 15px;
+    background-image: radial-gradient(
+        #fdbb2d,#fc4a1a,#f7b733);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 7% 1%;
+}
+.one,.two,.three,.four{
+    border:#b20a2c solid 2px;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    background-color: #f05053;
+    line-height: 150%;
+    text-decoration: underline;
+    color: #b20a2c;
+}
+.container{
+    margin: 1%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1.5fr 2fr 2fr 1fr ;
+    gap: 1%;
+}
+
+.item{
+    border: whitesmoke 2px solid;
+    color: white;
+    font-weight: bold;
+    font-size: 125%;
+} 
+.item1{
+    background-color: #EC3A48;
+    grid-column-start: 1;
+    grid-column-end: 5 ;
+    text-align: center;
+    font-size: 150%;
+}
+.item2{
+    background-color: #59D16B;
+}
+.item3{
+    background-color: #2982FA;
+
+}
+.item4{
+    background-color: #4848EB;
+
+}
+.item6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #F39939;
+}
+.item5{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: #2B2D37;
+}
+.item7{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #4FCDCF;
+    color: black;
+    text-align: center;
+}
+
