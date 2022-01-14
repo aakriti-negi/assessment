@@ -130,6 +130,7 @@ h4{
    }
    .flex-container{
        flex-direction: column;
+       margin-top: 2%;
    }
    .mid{
        flex-direction: column;
@@ -141,6 +142,7 @@ h4{
    .column{
     margin-left: 0;
     margin-right: 5%;
+    margin-top: 1%;
    }
 
    .group{
